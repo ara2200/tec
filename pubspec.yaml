@@ -42,6 +42,9 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  build_runner:
+  flutter_gen_runner:
+
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
@@ -235,7 +238,9 @@ flutter:
     - family: dana
       fonts:
         - asset: assets/fonts/DANA-BOLD.ttf
+          weight: 700
         - asset: assets/fonts/DANA-REGULAR.ttf
+          weight: 300
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:
